@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ảnh bìa */
+.AnhTrang {
+    width: 1497px;
+}
+
+/* Phần NAV */
+nav {
+    background-color: rgb(34, 93, 189);
+    padding: 1px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 30px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background:white;
+    color: black;
+    border-radius: 5px;
+}
+
+nav ul li :hover > a {
+    color: red;
+}
+
+nav ul li:active >a {
+    color: orange;
+}
+
+nav ul li   :visited {
+    color: white;
+}
+
+.dropdown {
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    min-width: 360px;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 100;
+    text-align: left;
+    
+}
+
+.dropdown li a {
+  color: black !important;
+
+}
+
+.dropdown li a:hover {
+  color: red !important;
+}
+
+.dropdown li a:active {
+  color: orange !important;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+/* Phần article và Aside */
+.gioithieu {
+    display: flex;
+}
+
+/* Phần article */
+article {
+    width: 60%;
+    margin: 15px;
+}
+
+.header {
+    border: 1px rgb(34, 93, 189) solid;
+    background: rgb(34, 93, 189);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.breadcrumb {
+    border: 1px gainsboro solid;
+    background: gainsboro;
+    padding: 5px;
+    color: gray;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: blue;
+}
+
+.breadcrumb a:hover {
+    color: orange !important;
+  }
+
+.gioithieu h1 {
+    font-size: 35px;
+    color: blue;
+}
+
+.content {
+    color: gray;
+    line-height: 1.5;
+}
+
+/* Phần Aside bên phải */
+aside {
+    width: 40%;
+    float: right;
+    flex: 1;
+    padding: 10px;
+  }
+
+  /* Thông báo */
+  .sidebar {
+    border: 1px red solid;
+    margin-top: 5px;
+  }
+
+  .sidebar h3 {
+    background:red;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+.notification {
+    margin-left: 10px;
+    line-height: 2;
+    color: red;
+}
+
+.notification-1 {
+    margin-left: 10px;
+    color: rgb(198, 191, 191);
+    line-height: 2;
+}
+
+hr {
+    width: 400px;
+    text-align: center;
+    color: gainsboro;
+}
+
+
+/* Văn Bản */
+.sidebar-1 {
+    border: 1px rgb(34, 93, 189) solid;
+    margin-top: 18px;
+  }
+
+  .sidebar-1 h2 {
+    background:rgb(34, 93, 189);
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .notification-2 {
+    margin-left: 10px;
+    line-height: 2.5;
+    color: rgb(34, 93, 189);
+}
+
+.notification-3 {
+    margin-left: 10px;
+    color: black;
+    line-height: 1.5;
+}
+
+/*Tin tức từ sở GD&DT*/
+.sidebar-2 {
+    border: 1px rgb(34, 93, 189) solid;
+    margin-top: 18px;
+  }
+
+  .sidebar-2 h1 {
+    background:rgb(34, 93, 189);
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .notification-4 {
+    margin-left: 10px; 
+    color: rgb(34, 93, 189);
+    line-height: 1.4;
+}
+
+.notification-5 {
+    margin-left: 10px;
+    color: red;
+    line-height: 3.4;
+}
+
+/* KẾ HOẠCH HOẠT ĐỘNG */
+.sidebar-3 {
+    border: 1px rgb(34, 93, 189) solid;
+    margin-top: 18px;
+  }
+
+  .sidebar-3 h1 {
+    background:rgb(34, 93, 189);
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .notification-6 {
+    margin-left: 10px; 
+    color: rgb(34, 93, 189);
+    line-height: 1.4;
+}
+
+.notification-7 {
+    margin-left: 10px;
+    color: rgb(187, 181, 181);
+    line-height: 3.4;
+}
+
+/*footer phần cuối trang */
+footer {
+    width: 100%;
+    background: rgb(34, 93, 189);
+    padding: 25px;
+    display: flex;
+
+}
+
+.footer {
+    color: white;
+    margin-left: 102px;
+}
+
+.footer-1 {
+    color: white;
+    margin-left: 340px;
+}
+
